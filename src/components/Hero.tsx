@@ -18,7 +18,7 @@ export default function Hero() {
         <div className="max-w-4xl mx-auto space-y-8">
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
             Pack Manual da
-            <span className="block bg-gradient-hero bg-clip-text text-transparent">
+            <span className="block text-accent font-extrabold text-shadow-lg">
               Libertação
             </span>
           </h1>
