@@ -38,7 +38,7 @@ export default function LeadMagnet() {
                       ⚠️
                     </div>
                     <div className="text-left">
-                      <h3 className="font-semibold text-card-foreground">20 Sinais Claros</h3>
+                      <h3 className="font-semibold text-card-foreground">Sinais Claros</h3>
                       <p className="text-sm text-muted-foreground">Red flags evidentes</p>
                     </div>
                   </div>
