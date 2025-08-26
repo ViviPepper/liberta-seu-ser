@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import bookMockup1 from "@/assets/book-mockup-1.jpg";
 import bookMockup2 from "@/assets/book-mockup-2.jpg";
 
 export default function PackContents() {
@@ -98,8 +97,8 @@ export default function PackContents() {
             <CardContent className="flex flex-col lg:flex-row items-center gap-8">
               <div className="lg:w-1/3">
                 <img 
-                  src={bookMockup1} 
-                  alt="Manual da Libertação" 
+                  src="/lovable-uploads/eb6f4153-cdb2-4d6b-a46d-04060e37082a.png" 
+                  alt="Manual da Libertação - Dispositivos móveis" 
                   className="w-full max-w-sm mx-auto rounded-lg shadow-glow"
                 />
               </div>
