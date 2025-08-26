@@ -44,7 +44,7 @@ export default function Hero() {
               <Button variant="liberation" size="xl" className="min-w-[200px]">
                 Comece Sua Libertação
               </Button>
-              <Button variant="outline" size="xl" className="min-w-[200px] border-white text-white hover:bg-white hover:text-primary">
+              <Button variant="ghost-white" size="xl" className="min-w-[200px]">
                 Saiba Mais
               </Button>
             </div>
