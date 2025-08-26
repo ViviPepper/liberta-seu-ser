@@ -2,6 +2,12 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import bookMockup2 from "@/assets/book-mockup-2.jpg";
+import planoSeguranca from "@/assets/plano-seguranca.jpg";
+import redFlags from "@/assets/guia-red-flags.jpg";
+import comunicacaoAssertiva from "@/assets/comunicacao-assertiva.jpg";
+import exerciciosAutoestima from "@/assets/exercicios-autoestima.jpg";
+import independenciaFinanceira from "@/assets/independencia-financeira.jpg";
+import diarioAutoconhecimento from "@/assets/diario-autoconhecimento.jpg";
 
 export default function PackContents() {
   const coreModule = {
@@ -38,32 +44,38 @@ export default function PackContents() {
     {
       title: "Plano de Segurança Pessoal",
       description: "Guia prático e essencial para organizar uma saída segura, protegendo sua integridade física, emocional e financeira.",
-      type: "Segurança"
+      type: "Segurança",
+      image: planoSeguranca
     },
     {
       title: "Guia Rápido de Sinais de Alerta (Red Flags)",
       description: "Manual de bolso para identificar rapidamente comportamentos tóxicos e se proteger.",
-      type: "Prevenção"
+      type: "Prevenção",
+      image: redFlags
     },
     {
       title: "Guia de Comunicação Assertiva",
       description: "Para você encontrar sua voz, estabelecer limites e nunca mais ser silenciada.",
-      type: "Comunicação"
+      type: "Comunicação",
+      image: comunicacaoAssertiva
     },
     {
       title: "Exercícios de Reconstrução da Autoestima",
       description: "Atividades práticas para curar feridas e redescobrir seu valor.",
-      type: "Cura"
+      type: "Cura",
+      image: exerciciosAutoestima
     },
     {
       title: "Estratégias para Independência Financeira",
       description: "O caminho para quebrar a dependência material e capacitar sua autonomia.",
-      type: "Autonomia"
+      type: "Autonomia",
+      image: independenciaFinanceira
     },
     {
       title: "Diário do Autoconhecimento",
       description: "Um espaço sagrado para sua reflexão, cura e celebração diária.",
-      type: "Reflexão"
+      type: "Reflexão",
+      image: diarioAutoconhecimento
     }
   ];
 
@@ -140,7 +152,14 @@ export default function PackContents() {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {tools.map((tool, index) => (
-                <Card key={index} className="shadow-card hover:shadow-glow transition-all duration-300 group">
+                <Card key={index} className="shadow-card hover:shadow-glow transition-all duration-300 group overflow-hidden">
+                  <div className="aspect-[4/3] overflow-hidden">
+                    <img 
+                      src={tool.image} 
+                      alt={tool.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
                   <CardHeader className="pb-4">
                     <Badge variant="secondary" className="w-fit mb-2">
                       {tool.type}
