@@ -38,9 +38,12 @@ export default function Hero() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-              <Button variant="liberation" size="xl" className="min-w-[200px]">
+             <Botão variante="libertação" tamanho="xl" nomedaclasse="min-w-[200px]">
+                <a href="https://seudominio.com/libertacao">
                 Comece Sua Libertação
-              </Button>
+                </a>
+                </Botão>
+
               
             </div>
           </div>
