@@ -201,7 +201,7 @@ export default function PackContents() {
             <CardContent className="flex flex-col lg:flex-row items-center gap-8 p-8">
               <div className="lg:w-1/3">
                 <img 
-                  src={bookMockup2} 
+                  src="/lovable-uploads/89b229e2-74d2-45e8-9375-516cb3834031.png" 
                   alt="Áudios de Libertação" 
                   className="w-full max-w-sm mx-auto rounded-lg shadow-glow"
                 />
