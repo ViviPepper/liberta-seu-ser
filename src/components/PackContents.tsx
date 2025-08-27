@@ -48,10 +48,22 @@ export default function PackContents() {
       image: planoSeguranca
     },
     {
-      title: "Guia Rápido de Sinais de Alerta (Red Flags)",
-      description: "Manual de bolso para identificar rapidamente comportamentos tóxicos e se proteger.",
-      type: "Prevenção",
-      image: redFlags
+      title: "Construindo o Novo - Relacionamentos Saudáveis e Autonomia",
+      description: "Transforme suas relações e descubra o poder da autonomia em sua vida.",
+      type: "Construção",
+      image: "/lovable-uploads/034ec107-a7db-404d-aa34-1a2d6b55e54f.png"
+    },
+    {
+      title: "Quebrando as Correntes - Estratégias para o Rompimento e Desapego",
+      description: "Estratégias práticas para o rompimento e o desapego emocional.",
+      type: "Libertação",
+      image: "/lovable-uploads/b225ecd0-8441-4e50-8b07-1345af5ebdb7.png"
+    },
+    {
+      title: "Fortalecendo o Eu - Resgatando Autoestima e Identidade",
+      description: "Um guia para o resgate da sua autoestima e identidade perdidas.",
+      type: "Fortalecimento",
+      image: "/lovable-uploads/8d1bb27e-ee31-4cb5-bbac-145bc276f168.png"
     },
     {
       title: "Guia de Comunicação Assertiva",
