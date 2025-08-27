@@ -48,6 +48,12 @@ export default function PackContents() {
       image: planoSeguranca
     },
     {
+      title: "Desvendando o Abuso - Reconhecimento e Compreensão",
+      description: "Para você reconhecer as manifestações sutis e evidentes da toxicidade.",
+      type: "Reconhecimento",
+      image: "/lovable-uploads/7440c48f-e84f-4865-adc4-b969b5790311.png"
+    },
+    {
       title: "Construindo o Novo - Relacionamentos Saudáveis e Autonomia",
       description: "Transforme suas relações e descubra o poder da autonomia em sua vida.",
       type: "Construção",
