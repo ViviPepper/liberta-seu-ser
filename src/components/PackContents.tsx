@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import bookMockup2 from "@/assets/book-mockup-2.jpg";
-import planoSeguranca from "@/assets/plano-seguranca.jpg";
+const planoSeguranca = "/lovable-uploads/a1e794da-b771-4132-809e-fd98f40e7892.png";
 import redFlags from "@/assets/guia-red-flags.jpg";
 import comunicacaoAssertiva from "@/assets/comunicacao-assertiva.jpg";
 import exerciciosAutoestima from "@/assets/exercicios-autoestima.jpg";
