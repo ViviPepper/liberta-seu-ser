@@ -1,14 +1,11 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-liberation.jpg";
-
 export default function Hero() {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroImage})` }}
-      />
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
+      backgroundImage: `url(${heroImage})`
+    }} />
       
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-primary/80 via-primary/60 to-transparent" />
@@ -44,9 +41,7 @@ export default function Hero() {
               <Button variant="liberation" size="xl" className="min-w-[200px]">
                 Comece Sua Libertação
               </Button>
-              <Button variant="ghost-white" size="xl" className="min-w-[200px]">
-                Saiba Mais
-              </Button>
+              
             </div>
           </div>
         </div>
@@ -58,6 +53,5 @@ export default function Hero() {
           <div className="w-1 h-3 bg-white rounded-full mt-2 animate-pulse" />
         </div>
       </div>
-    </section>
-  );
+    </section>;
 }
