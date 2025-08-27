@@ -6,7 +6,7 @@ const planoSeguranca = "/lovable-uploads/a1e794da-b771-4132-809e-fd98f40e7892.pn
 import redFlags from "@/assets/guia-red-flags.jpg";
 const comunicacaoAssertiva = "/lovable-uploads/f6f1d801-b3d3-4485-af15-f062542a34be.png";
 const exerciciosAutoestima = "/lovable-uploads/0e86309c-d993-4300-b9ce-0ce5f25b96d3.png";
-import independenciaFinanceira from "@/assets/independencia-financeira.jpg";
+const independenciaFinanceira = "/lovable-uploads/d24578d1-7ad9-4bbb-bc68-2144d432a4cb.png";
 import diarioAutoconhecimento from "@/assets/diario-autoconhecimento.jpg";
 
 export default function PackContents() {
