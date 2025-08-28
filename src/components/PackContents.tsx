@@ -253,18 +253,15 @@ export default function PackContents() {
                   Cada áudio é um lembrete de que você não está sozinha e de que a cada dia você dá 
                   um novo passo em direção à sua liberdade.
                 </p>
-                <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                  <Button 
-                    variant="liberation" 
-                    size="lg"
-                    onClick={() => window.open('https://cutt.ly/pack_completo', '_blank')}
-                  >
-                    Quero Começar Hoje
-                  </Button>
-                  <Button variant="outline" size="lg">
-                    Ver Todos os Conteúdos
-                  </Button>
-                </div>
+                 <div className="flex flex-col sm:flex-row gap-4 pt-4">
+                   <Button 
+                     variant="liberation" 
+                     size="lg"
+                     onClick={() => window.open('https://cutt.ly/pack_completo', '_blank')}
+                   >
+                     Quero Começar Hoje
+                   </Button>
+                 </div>
               </div>
             </CardContent>
           </Card>
