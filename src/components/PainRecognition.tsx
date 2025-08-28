@@ -66,7 +66,7 @@ export default function PainRecognition() {
             <Button 
               variant="hero" 
               size="xl"
-              onClick={() => window.open('https://drive.google.com/drive/folders/1hBVk2SXgTF_B6abWJfCRGH3MU_sz4LVT?usp=sharing', '_blank')}
+              onClick={() => window.open('https://cutt.ly/pack_completo', '_blank')}
             >
               Reconheço Essa Dor - Quero Ajuda
             </Button>
