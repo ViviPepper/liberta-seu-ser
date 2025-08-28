@@ -254,7 +254,11 @@ export default function PackContents() {
                   um novo passo em direção à sua liberdade.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                  <Button variant="liberation" size="lg">
+                  <Button 
+                    variant="liberation" 
+                    size="lg"
+                    onClick={() => window.open('https://cutt.ly/pack_completo', '_blank')}
+                  >
                     Quero Começar Hoje
                   </Button>
                   <Button variant="outline" size="lg">
