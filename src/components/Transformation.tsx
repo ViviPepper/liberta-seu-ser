@@ -100,7 +100,11 @@ export default function Transformation() {
               Esta transformação não acontece da noite para o dia, mas cada passo que você dá 
               te aproxima da mulher livre, forte e autêntica que você sempre foi.
             </p>
-            <Button variant="liberation" size="xl">
+            <Button 
+              variant="liberation" 
+              size="xl"
+              onClick={() => window.open('https://cutt.ly/pack_completo', '_blank')}
+            >
               Iniciar Minha Transformação Agora
             </Button>
           </div>
