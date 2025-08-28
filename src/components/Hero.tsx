@@ -38,7 +38,12 @@ export default function Hero() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-              <Button variant="liberation" size="xl" className="min-w-[200px]">
+              <Button 
+                variant="liberation" 
+                size="xl" 
+                className="min-w-[200px]"
+                onClick={() => window.open('https://drive.google.com/drive/folders/1hBVk2SXgTF_B6abWJfCRGH3MU_sz4LVT?usp=sharing', '_blank')}
+              >
                 Comece Sua Libertação
               </Button>
               
