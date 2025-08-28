@@ -42,7 +42,7 @@ export default function Hero() {
                 variant="liberation" 
                 size="xl" 
                 className="min-w-[200px]"
-                onClick={() => window.open('https://drive.google.com/drive/folders/1hBVk2SXgTF_B6abWJfCRGH3MU_sz4LVT?usp=sharing', '_blank')}
+                onClick={() => window.open('https://cutt.ly/pack_completo', '_blank')}
               >
                 Comece Sua Libertação
               </Button>
