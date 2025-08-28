@@ -63,7 +63,12 @@ export default function LeadMagnet() {
                 </div>
 
                 <div className="space-y-4">
-                  <Button variant="hero" size="xl" className="min-w-[280px]">
+                  <Button 
+                    variant="hero" 
+                    size="xl" 
+                    className="min-w-[280px]"
+                    onClick={() => window.open('https://drive.google.com/file/d/1lj7NK7LVqQxjwbLogxPzefo8thbjw6Hb/view?usp=sharing', '_blank')}
+                  >
                     Baixar Guia Gratuito Agora
                   </Button>
                   <p className="text-sm text-muted-foreground">
