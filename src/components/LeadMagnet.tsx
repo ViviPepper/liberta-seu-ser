@@ -67,7 +67,7 @@ export default function LeadMagnet() {
                     variant="hero" 
                     size="xl" 
                     className="min-w-[280px]"
-                    onClick={() => window.open('https://drive.google.com/file/d/1lj7NK7LVqQxjwbLogxPzefo8thbjw6Hb/view?usp=sharing', '_blank')}
+                    onClick={() => window.open('https://cutt.ly/guia_red_flags', '_blank')}
                   >
                     Baixar Guia Gratuito Agora
                   </Button>
