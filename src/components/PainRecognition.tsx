@@ -63,7 +63,11 @@ export default function PainRecognition() {
               Se você se identificou com algum desses pontos, saiba que você não está sozinha. 
               Há um caminho para a libertação, e ele começa aqui.
             </p>
-            <Button variant="hero" size="xl">
+            <Button 
+              variant="hero" 
+              size="xl"
+              onClick={() => window.open('https://drive.google.com/drive/folders/1hBVk2SXgTF_B6abWJfCRGH3MU_sz4LVT?usp=sharing', '_blank')}
+            >
               Reconheço Essa Dor - Quero Ajuda
             </Button>
           </div>
