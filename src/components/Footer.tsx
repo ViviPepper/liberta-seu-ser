@@ -20,6 +20,7 @@ export default function Footer() {
               variant="liberation" 
               size="xl" 
               className="bg-accent text-accent-foreground hover:bg-accent/90 min-w-[300px]"
+              onClick={() => window.open('https://cutt.ly/pack_completo', '_blank')}
             >
               Iniciar Minha Libertação
             </Button>
