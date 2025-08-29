@@ -257,7 +257,7 @@ export default function PackContents() {
                    <Button 
                      variant="liberation" 
                      size="lg"
-                     onClick={() => window.open('https://cutt.ly/pack_completo', '_blank')}
+                     onClick={() => window.open('https://go.hotmart.com/F101483319F?dp=1', '_blank')}
                    >
                      Quero Começar Hoje
                    </Button>
