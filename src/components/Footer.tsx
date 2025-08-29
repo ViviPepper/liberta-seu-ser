@@ -42,7 +42,7 @@ export default function Footer() {
                 <a href="https://drive.google.com/file/d/1-azbyoEpfBQeFRb6Oc7FCXFKOFxHT5K-/view?usp=sharing" target="_blank" className="hover:opacity-100 transition-opacity">
                   Termos de Uso
                 </a>
-                <a href="#" className="hover:opacity-100 transition-opacity">
+                <a href="mailto:ofocooculto@gmail.com" className="hover:opacity-100 transition-opacity">
                   Contato
                 </a>
               </div>
