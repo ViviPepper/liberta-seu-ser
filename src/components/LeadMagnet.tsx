@@ -19,7 +19,7 @@ export default function LeadMagnet() {
               {/* Conteúdo */}
               <div className="lg:order-1 space-y-6">
                 <div className="space-y-4 text-left lg:text-left">
-                  <div className="inline-flex items-center px-4 py-2 bg-accent/10 text-accent rounded-full text-sm font-semibold">
+                  <div className="inline-flex items-center px-4 py-2 bg-primary text-primary-foreground rounded-full text-sm font-semibold">
                     🎁 Presente Gratuito
                   </div>
                   <h2 className="text-3xl md:text-4xl font-bold text-card-foreground">
