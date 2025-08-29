@@ -36,7 +36,7 @@ export default function Footer() {
             <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm opacity-75">
               <p>© 2024 Clara Valente. Todos os direitos reservados.</p>
               <div className="flex gap-6">
-                <a href="#" className="hover:opacity-100 transition-opacity">
+                <a href="https://drive.google.com/file/d/1T8BlqLBytb3CkUuXiembHj50HZkp1fbw/view?usp=sharing" target="_blank" className="hover:opacity-100 transition-opacity">
                   Política de Privacidade
                 </a>
                 <a href="#" className="hover:opacity-100 transition-opacity">
