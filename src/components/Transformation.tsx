@@ -103,7 +103,7 @@ export default function Transformation() {
             <Button 
               variant="liberation" 
               size="xl"
-              onClick={() => window.open('https://cutt.ly/pack_completo', '_blank')}
+              onClick={() => window.open('https://go.hotmart.com/F101483319F?dp=1', '_blank')}
             >
               Iniciar Minha Transformação Agora
             </Button>
